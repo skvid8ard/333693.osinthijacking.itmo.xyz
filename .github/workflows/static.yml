@@ -25,8 +25,8 @@ jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      name: 333693.osinthijacking.itmo.xyz
+      url: 333693.osinthijacking.itmo.xyz
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
